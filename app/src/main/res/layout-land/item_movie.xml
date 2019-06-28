@@ -22,7 +22,7 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="120dp"
+        android:layout_width="0dp"
         android:layout_height="26dp"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
@@ -31,6 +31,8 @@
         android:layout_marginRight="8dp"
         android:text="Movie Title"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#f54c8a"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/ivBackdropImage"
@@ -47,6 +49,7 @@
         android:layout_marginRight="8dp"
         android:maxLines="10"
         android:text="TextView"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/ivBackdropImage"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
